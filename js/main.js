@@ -44,7 +44,7 @@ do {
             numeroB = Number(prompt("Ingrese el segundo numero"))
 
 
-            if (numeroB !== 0) { /* pedir dar la condicion antes de realizar la operacion / por eso va despues la operacion del if */
+            if (numeroB !== 0) {
                 let dividir = (numeroA / numeroB)
                 alert("El resultado de tu división es:  " + dividir)
                 intentos++
